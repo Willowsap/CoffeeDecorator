@@ -1,11 +1,13 @@
+package decorator;
+
 /**
  * Driver for testing our beverage system.
  * 
  * @author Willow Sapphire
  * @version 11/2/2022
  */
-public class Driver {
-
+public class Demo
+{
     /**
      * Main method to run our manual tests.
      * @param args - unused.
