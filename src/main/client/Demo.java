@@ -2,7 +2,6 @@ package client;
 
 import decorator.Beverage;
 import decorator.DarkRoast;
-import decorator.LightRoast;
 import decorator.Milk;
 import decorator.Sugar;
 
