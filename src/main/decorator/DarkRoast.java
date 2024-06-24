@@ -11,7 +11,8 @@ public class DarkRoast extends Beverage
     /**
      * Creates a new dark roast beverage.
      */
-    public DarkRoast() {
+    public DarkRoast()
+    {
         super("Dark Roast Coffee", 1.7);
     }
 }

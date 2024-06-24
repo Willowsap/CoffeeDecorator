@@ -1,4 +1,10 @@
-package decorator;
+package client;
+
+import decorator.Beverage;
+import decorator.DarkRoast;
+import decorator.LightRoast;
+import decorator.Milk;
+import decorator.Sugar;
 
 /**
  * Driver for testing our beverage system.
@@ -14,8 +20,15 @@ public class Demo
      */
     public static void main(String[] args)
     {
+        // Polymorphic
         // Start out with a base drink
         Beverage myDrink = new DarkRoast();
+
+        // NOT polymorphic
+        // DarkRoast drink1 = new DarkRoast();
+        // Beverage drink2 = new Beverage();
+
+
         System.out.println(myDrink);
 
         // Add a decorator
